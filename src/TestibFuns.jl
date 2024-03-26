@@ -29,6 +29,7 @@ function h1(x)
     for i in 1:n
         h[i,i] = 2
     end
+    return h
 end
 
 
@@ -46,6 +47,7 @@ function h2(x)
     for i in 1:n
         h[i,i] = 2*x[i]
     end
+    return h
 end
 
 # Function 
