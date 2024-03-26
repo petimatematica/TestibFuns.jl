@@ -38,7 +38,7 @@ function g2(x)
     return 5x
 end
 
-function h1(x)
+function h2(x)
     n = size(x,1)
     h = zeros(n,n)
     for i in 1:n
