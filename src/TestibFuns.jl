@@ -1,6 +1,6 @@
 module TestibFuns
 
-using LinearAlgebra
+#using LinearAlgebra
 
 # Write your package code here...
 struct st_funlib
