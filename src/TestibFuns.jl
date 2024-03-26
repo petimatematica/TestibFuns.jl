@@ -14,7 +14,7 @@ end
 
 
 function f1(x)
-    return dot(x)
+    return dot(x,x)
 end
 
 function g1(x)
@@ -31,7 +31,7 @@ end
 
 
 function f2(x)
-    return 3*dot(x)
+    return 3*dot(x,x)
 end
 
 function g2(x)
