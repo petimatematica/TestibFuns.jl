@@ -1,0 +1,13 @@
+name = "TestibFuns"
+uuid = "13372b65-7354-43c3-8729-e2310278829a"
+authors = ["Marcio Antônio de Andrade Bortoloti <mbortoloti@uesb.edu.br> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
