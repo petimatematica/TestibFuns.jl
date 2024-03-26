@@ -1,5 +1,7 @@
 module TestibFuns
 
+export quad1, quad2
+
 #using LinearAlgebra
 
 # Write your package code here...
