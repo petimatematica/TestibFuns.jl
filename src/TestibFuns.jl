@@ -2,7 +2,7 @@ module TestibFuns
 
 export quad1, quad2
 
-#using LinearAlgebra
+using LinearAlgebra
 
 # Write your package code here...
 struct st_funlib
