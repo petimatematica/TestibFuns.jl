@@ -2,7 +2,6 @@ module TestibFuns
 
 export quad1, quad2
 
-using LinearAlgebra
 
 # Write your package code here...
 struct st_funlib
@@ -16,7 +15,7 @@ end
 
 
 function f1(x)
-    return dot(x,x)
+    return sum(x)
 end
 
 function g1(x)
@@ -34,7 +33,7 @@ end
 
 
 function f2(x)
-    return 3*dot(x,x)
+    return 3*sum(x)
 end
 
 function g2(x)
